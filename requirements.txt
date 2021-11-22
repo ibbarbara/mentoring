@@ -1,0 +1,4 @@
+pytest
+seleniumbase
+assertpy
+parameterized
