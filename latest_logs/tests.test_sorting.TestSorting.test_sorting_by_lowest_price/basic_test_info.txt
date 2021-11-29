@@ -1,0 +1,17 @@
+test_sorting.py::TestSorting::test_sorting_by_lowest_price
+--------------------------------------------------------------------
+Last Page: https://allegro.pl/listing?string=choinka%20bo%C5%BConarodzeniowa&order=p
+  Browser: chrome
+Timestamp: 1638138853  (Unix Timestamp)
+     Date: Sunday, 28 November 2021
+     Time: 11:34:13 PM  (CEST, UTC+01:00)
+--------------------------------------------------------------------
+Traceback: File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 550, in _callTestMethod
+    method()
+  File "/Users/bbars/Documents/Mentoring/Mentoring2/project-selenium/mentoring/tests/test_sorting.py", line 15, in test_sorting_by_lowest_price
+    ResultsPage().lowest_price(self)
+  File "/Users/bbars/Documents/Mentoring/Mentoring2/project-selenium/mentoring/pages/results_page.py", line 14, in lowest_price
+    price.list = [elem for elem in price]
+Exception: 'str' object has no attribute 'list'

@@ -1,0 +1,22 @@
+test_sorting.py::TestSorting::test_sorting_by_lowest_price
+--------------------------------------------------------------------
+Last Page: https://allegro.pl/listing?string=choinka%20bo%C5%BConarodzeniowa&order=p
+  Browser: chrome
+Timestamp: 1638195765  (Unix Timestamp)
+     Date: Monday, 29 November 2021
+     Time: 3:22:45 PM  (CEST, UTC+01:00)
+--------------------------------------------------------------------
+Traceback: File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 550, in _callTestMethod
+    method()
+  File "/Users/bbars/Documents/Mentoring/Mentoring2/project-selenium/mentoring/tests/test_sorting.py", line 16, in test_sorting_by_lowest_price
+    ResultsPage().lowest_price(self)
+  File "/Users/bbars/Documents/Mentoring/Mentoring2/project-selenium/mentoring/pages/results_page.py", line 17, in lowest_price
+    print(sb.get_text(elem, By.XPATH))
+  File "/Users/bbars/Documents/Mentoring/Mentoring2/project-selenium/mentoring/.venv/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py", line 1193, in get_text
+    selector, by = self.__recalculate_selector(selector, by)
+  File "/Users/bbars/Documents/Mentoring/Mentoring2/project-selenium/mentoring/.venv/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py", line 10187, in __recalculate_selector
+    raise Exception('Invalid selector type: "%s"\n%s' % (_type, msg))
+Exception: Invalid selector type: "<class 'selenium.webdriver.remote.webelement.WebElement'>"
+Expecting a selector of type: "<class 'str'>" (string)!

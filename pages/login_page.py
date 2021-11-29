@@ -2,6 +2,7 @@
 # from cssselect.parser import Selector
 from src.constants import Constants
 from src.selectors import LogInPageSelectors
+from src.selectors import GeneralSelectors
 from src.data_sets import LogInData
 import assertpy
 
@@ -9,9 +10,10 @@ import assertpy
 class LoginPage:
     def open_logging_page(self, sb):
         sb.open(Constants.url + "logowanie")
-        sb.click(LogInPageSelectors.CONSENT)
+        sb.click(GeneralSelectors.CONSENT)
         sb.find_element(LogInPageSelectors.LOGIN_BTN)
 
+    ####dlaczego taki zapisa credentials[LoginData.EMAIL]
     def input_credentials(self, sb, credentials: dict):
         sb.type(LogInPageSelectors.EMAIL_IB, credentials[LogInData.EMAIL])
         sb.type(LogInPageSelectors.PASSWD_IB, credentials[LogInData.PASSWORD])
