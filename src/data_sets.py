@@ -6,3 +6,11 @@ class LogInData:
         [{EMAIL: "test2@gmailcom", PASSWORD: "test1234"}],
         [{EMAIL: "testgmail.com", PASSWORD: "1"}],
     ]
+
+
+class ResultsData:
+    searching_products = [
+        ("choinka boonarodzeniowa"),
+        ("bombki choinkowe"),
+        ("sanki drewniane"),
+    ]

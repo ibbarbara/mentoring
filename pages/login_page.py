@@ -1,5 +1,3 @@
-# from logging import error
-# from cssselect.parser import Selector
 from src.constants import Constants
 from src.selectors import LogInPageSelectors
 from src.selectors import GeneralSelectors

@@ -18,4 +18,7 @@ class MainPageSelectors:
 class ResultsPageSelectors:
     SORT_DD = 'select[id="allegro.listing.sort"]'
     LOWEST_PRICE_DD = 'option[value="p"]'
-    PRODUCTS_PRICE = '//span[@class="_1svub _lf05o"]'
+    OFFERT_TXT = (
+        'h2[class="mgmw_wo mgn2_21 mp0t_ji m9qz_yo mqu1_1j mp4t_8 mryx_8 m7er_k4"]'
+    )
+    PRICES_TXT = 'span[class="_1svub _lf05o"]'

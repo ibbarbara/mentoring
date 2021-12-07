@@ -187,3 +187,13 @@ pip-selfcheck.json
 
 # report
 .html
+#logs
+latest_logs
+archived_logs
+assets
+
+#vscode
+.vscode
+
+
+
